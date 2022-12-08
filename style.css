@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.about_me_profession{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.main_container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* main content section */
+.main_content_section{
+    width: 70%;
+    padding: 100px 90px;
+    /* display:flex;
+    flex-direction: row;  */
+} 
+
+/* about me section */
+.about_me_section{
+   margin-bottom: 30px;
+}
+.about_me_profession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+.about_me_name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 30px;
+}
+.about_me_description{
+    width: 90%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+padding-bottom: 20px;
+}
+.main_contact_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+.main_contact_title{
+    margin-bottom: 30px;
+}
+.my_projects_section{
+  margin-bottom: 50px;
+
+}
+.my_work_experience_section{
+    margin-bottom: 50px;
+}
+.my_project_item{
+    color: #000;
+    font-weight: bold;
+}
+.my_project_text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+}
+.my_project_link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+}
+.my_poject_bracket{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.my_work_experience_company{
+    color: orange;
+}
+.my_work_experience_position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.my_work_experience_period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+.divider{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+}
+.my_work_experiece_duties{
+    padding-left: 15px;
+}
+.my_work_experiece_duty{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #595959;
+}
+.my_work_experience_company_block{
+    margin: 0 100px 0 0;
+    
+}
+
+.my_education_university{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: orange;
+    margin-bottom: 10px;
+}
+.my_education_section{
+    margin-bottom: 30px;
+}
+.my_education_major{
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 17px;
+color: #000000;
+margin-bottom: 10px;
+}
+.my_education_term{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 15px;
+color: #A8A8A8;
+margin-bottom: 10px;
+}
+/* sidebar section */
+.sidebar_section{
+    background-color: #1E2939;
+    color: #fff;
+    width: 30%;
+    padding: 40px 0;
+}
+
+.contact_section, .tech_skill_section, 
+.soft_skill_section{
+margin: 50px 0 0 40px;
+}
+
+.sidebar_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+/* contact section */
+.contact_section_type{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.contact_section_link{
+    color: rgb(167, 170, 174);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.skill_list{
+    padding: 0 0 0 17px;
+}
+.skill_item{
+    color: orange;
+}
+.skill_item_text{
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
